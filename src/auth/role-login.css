@@ -1,0 +1,242 @@
+.access-section {
+  background:
+    radial-gradient(circle at 12% 18%, rgba(28, 109, 205, 0.2), transparent 34%),
+    radial-gradient(circle at 88% 82%, rgba(246, 163, 37, 0.13), transparent 30%),
+    #070d14;
+  color: #f7fbff;
+  min-height: 760px;
+  padding: 54px clamp(18px, 5vw, 72px) 72px;
+}
+
+.login-shell {
+  margin: 0 auto;
+  max-width: 480px;
+}
+
+.login-brand {
+  align-items: center;
+  display: flex;
+  font-size: 1.08rem;
+  font-weight: 800;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 26px;
+}
+
+.login-brand-mark {
+  align-items: center;
+  background: linear-gradient(135deg, #1eb8f2, #2271ed);
+  border-radius: 10px;
+  color: #ffffff;
+  display: inline-flex;
+  height: 38px;
+  justify-content: center;
+  width: 38px;
+}
+
+.login-card {
+  background: rgba(12, 21, 31, 0.92);
+  border: 1px solid #263646;
+  border-radius: 14px;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.34);
+  padding: clamp(24px, 5vw, 44px);
+}
+
+.login-card-heading {
+  text-align: center;
+}
+
+.login-icon {
+  align-items: center;
+  background: rgba(30, 184, 242, 0.12);
+  border: 1px solid rgba(30, 184, 242, 0.35);
+  border-radius: 50%;
+  color: #43c9fa;
+  display: inline-flex;
+  height: 42px;
+  justify-content: center;
+  margin-bottom: 14px;
+  width: 42px;
+}
+
+.login-eyebrow {
+  color: #51c9f7;
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.login-card h1 {
+  font-size: clamp(2.4rem, 7vw, 3.5rem);
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin: 11px 0;
+}
+
+.login-card-heading p {
+  color: #9eafc0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  margin: 0 auto;
+  max-width: 340px;
+}
+
+.role-login-form {
+  display: grid;
+  gap: 17px;
+  margin-top: 30px;
+}
+
+.role-login-form label {
+  color: #b5c4d3;
+  display: grid;
+  font-size: 0.83rem;
+  font-weight: 700;
+  gap: 8px;
+}
+
+.role-login-form input,
+.role-login-form select {
+  background: #080e15;
+  border: 1px solid #2a3a4b;
+  border-radius: 8px;
+  color: #f5f9fc;
+  min-height: 48px;
+  outline: 0;
+  padding: 0 14px;
+  width: 100%;
+}
+
+.role-login-form input::placeholder {
+  color: #5d7084;
+}
+
+.role-login-form input:focus,
+.role-login-form select:focus {
+  border-color: #28bdf2;
+  box-shadow: 0 0 0 3px rgba(40, 189, 242, 0.14);
+}
+
+.role-select-wrap {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.role-select-wrap svg {
+  color: #36c5f5;
+  left: 14px;
+  pointer-events: none;
+  position: absolute;
+}
+
+.role-select-wrap select {
+  appearance: none;
+  cursor: pointer;
+  padding-left: 43px;
+}
+
+.login-options {
+  align-items: center;
+  display: flex;
+  font-size: 0.82rem;
+  justify-content: space-between;
+}
+
+.login-options a {
+  color: #59cafa;
+  font-weight: 700;
+}
+
+.remember-option {
+  align-items: center;
+  display: flex !important;
+  flex-direction: row;
+  gap: 8px !important;
+}
+
+.remember-option input {
+  accent-color: #20b8ed;
+  min-height: auto;
+  width: 15px;
+}
+
+.remember-option span {
+  color: #a8b7c6;
+  font-weight: 600;
+}
+
+.login-submit {
+  align-items: center;
+  background: linear-gradient(100deg, #eff8ff, #cdddea);
+  border: 0;
+  border-radius: 8px;
+  color: #0b1722;
+  cursor: pointer;
+  display: inline-flex;
+  font-weight: 850;
+  gap: 9px;
+  justify-content: center;
+  min-height: 50px;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.login-submit:hover {
+  box-shadow: 0 10px 28px rgba(97, 202, 244, 0.2);
+  transform: translateY(-1px);
+}
+
+.login-divider {
+  align-items: center;
+  color: #6d8093;
+  display: flex;
+  font-size: 0.7rem;
+  gap: 12px;
+  letter-spacing: 0.1em;
+  margin: 25px 0 14px;
+  text-transform: uppercase;
+}
+
+.login-divider::before,
+.login-divider::after {
+  background: #29394a;
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+
+.login-helper {
+  align-items: center;
+  color: #8ea1b3;
+  display: flex;
+  font-size: 0.78rem;
+  gap: 7px;
+  justify-content: center;
+  margin: 0;
+}
+
+.login-helper svg {
+  color: #42c8f8;
+}
+
+.login-demo {
+  color: #617486;
+  font-size: 0.74rem;
+  margin: 16px 0 0;
+  text-align: center;
+}
+
+@media (max-width: 520px) {
+  .access-section {
+    min-height: 700px;
+    padding-top: 30px;
+  }
+
+  .login-options {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+}

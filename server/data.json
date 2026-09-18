@@ -1,0 +1,110 @@
+{
+  "mentors": [
+    {
+      "id": "m1",
+      "name": "Aarav Mehta",
+      "role": "Final year CSE student",
+      "college": "Delhi Technological University",
+      "skills": [
+        "React",
+        "JavaScript",
+        "Frontend Projects"
+      ],
+      "mode": "Online",
+      "bio": "Teaches project-first React with clean components, routing, and API integration.",
+      "availability": "Mon, Wed evenings",
+      "rating": 4.9,
+      "sessionsCompleted": 48
+    },
+    {
+      "id": "m2",
+      "name": "Priya Sharma",
+      "role": "Senior developer mentor",
+      "college": "VIT Vellore",
+      "skills": [
+        "Python",
+        "Machine Learning",
+        "Data Analysis"
+      ],
+      "mode": "Hybrid",
+      "bio": "Helps beginners move from Python basics to notebooks, models, and portfolio demos.",
+      "availability": "Sat mornings",
+      "rating": 4.8,
+      "sessionsCompleted": 63
+    },
+    {
+      "id": "m3",
+      "name": "Kabir Khan",
+      "role": "Design club lead",
+      "college": "SRM Institute of Science and Technology",
+      "skills": [
+        "UI Design",
+        "Figma",
+        "Design Systems"
+      ],
+      "mode": "Online",
+      "bio": "Guides students through practical UI design, wireframes, and design critique.",
+      "availability": "Tue, Thu nights",
+      "rating": 4.7,
+      "sessionsCompleted": 37
+    },
+    {
+      "id": "m4",
+      "name": "Nisha Rao",
+      "role": "GDSC senior",
+      "college": "PES University",
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "APIs"
+      ],
+      "mode": "Offline",
+      "bio": "Builds backend basics with authentication, API routes, and deployable server projects.",
+      "availability": "Friday afternoons",
+      "rating": 4.9,
+      "sessionsCompleted": 54
+    }
+  ],
+  "requests": [
+    {
+      "id": "r1",
+      "studentName": "Meera Iyer",
+      "college": "Anna University",
+      "skill": "React",
+      "goal": "Need help building my mini project frontend.",
+      "level": "Beginner",
+      "status": "Closed",
+      "createdAt": "2026-05-10T08:30:00.000Z"
+    },
+    {
+      "id": "r2",
+      "studentName": "Rohan Das",
+      "college": "Jadavpur University",
+      "skill": "Machine Learning",
+      "goal": "Want a mentor for model training and project explanation.",
+      "level": "Intermediate",
+      "status": "Open",
+      "createdAt": "2026-05-11T12:00:00.000Z"
+    }
+  ],
+  "payments": [
+    {
+      "id": "d3d2b37c-a117-4ea9-891d-e42a71fccfee",
+      "gateway": "razorpay",
+      "orderId": "order_T9kgj9O5WiJOZG",
+      "paymentId": "pay_T9kiaqGDoNJUJ1",
+      "planId": "starter",
+      "planName": "Starter mentoring call",
+      "amount": 9900,
+      "currency": "INR",
+      "customerName": "gaurav narayan",
+      "customerEmail": "g6111763@gmail.com",
+      "customerPhone": "9525466003",
+      "skill": "python",
+      "status": "paid",
+      "createdAt": "2026-07-05T08:16:28.811Z",
+      "paidAt": "2026-07-05T08:18:40.424Z"
+    }
+  ]
+}
