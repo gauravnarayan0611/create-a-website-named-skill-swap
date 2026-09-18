@@ -61,20 +61,13 @@ skill_swap_Ai
 Default local admin:
 
 ```text
-Email: admin@skillswap.ai
-Password: admin123
+
 ```
 
 Change these before hosting by setting environment variables:
 
 ```bash
-ADMIN_EMAIL=admin@gaurav6859skillswap.ai
-ADMIN_PASSWORD=admingaurav1q2w3e4r.in
-ADMIN_SECRET=my-1st-webskill-swap-in--@#$%.in-random-api-?.com
 
-# ADMIN_EMAIL=your@email.com
-# ADMIN_PASSWORD=your-strong-password
-# ADMIN_SECRET=your-long-secret
 ```
 
 ## Razorpay Payments
@@ -84,10 +77,7 @@ Real payments stay disabled until Razorpay keys are configured on the backend.
 Create Razorpay API keys from the Razorpay Dashboard, then set:
 
 ```bash
-RAZORPAY_KEY_ID=rzp_test_T9KD4U1acLVUmY
-RAZORPAY_KEY_SECRET=MCiwTCWuM47DGuizGbq0FpQV
-# RAZORPAY_KEY_ID=rzp_test_your_key_id
-# RAZORPAY_KEY_SECRET=your_key_secret
+
 ```
 
 Security notes:
